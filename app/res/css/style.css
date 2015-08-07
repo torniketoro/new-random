@@ -1,0 +1,12 @@
+body {
+  background-color: green;
+  color: green;
+  font-size: 13px;
+}
+.shape {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #ffffff;
+  margin: 15px;
+}
