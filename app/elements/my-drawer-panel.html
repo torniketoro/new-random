@@ -1,0 +1,36 @@
+<dom-module id="my-drawer-panel">
+	<style>
+
+	</style>
+
+	<template>
+		<paper-drawer-panel>
+			<paper-header-panel drawer>
+				<paper-toolbar>
+					<div>Random.ge</div>
+				</paper-toolbar>
+				<paper-menu selected="0">
+					<paper-item>
+						<a href="/">Home</a>
+					</paper-item>
+					<paper-item>
+						<a href="/jokes">Jokes</a>
+					</paper-item>
+				</paper-menu>
+			</paper-header-panel>
+			<paper-header-panel main>
+				<paper-toolbar>
+					<paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+					<div>Title</div>
+				</paper-toolbar>
+				<content>Main Content</content>
+			</paper-header-panel>
+		</paper-drawer-panel>
+	</template>
+
+	<script>
+		Polymer({
+			is:"my-drawer-panel"
+		});
+	</script>
+</dom-module>

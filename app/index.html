@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Random.ge</title>
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap-css/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="res/css/style.css" />
+
+		<script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+		
+		<link rel="import" href="../bower_components/polymer/polymer.html">
+		<link rel="import" href="elements/elements.html">
 	</head>
 
-	<body>
-		<div class="shape"></div>
+	<body unresolved class="fullbleed layout vertical">
+		<temaplate id="main" is="dom-bind">
+			<iron-pages attr-for-selected="data-route" selected="{{route}}">		
+				<section data-route="home">
+					<home-page></home-page>
+				</section>
+				<section data-route="jokes">
+					jokes
+				</section>
+				<section data-route="toasts">
+					Toasts
+				</section>
+			</iron-pages>
+		</template>		
+		<!-- <script src="../bower_components/page.js/page.js"></script> -->
+		<script src="res/minjs/app.js"></script>
 	</body>
 </html>
