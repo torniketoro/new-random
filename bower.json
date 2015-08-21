@@ -1,0 +1,26 @@
+{
+  "name": "randomge",
+  "version": "0.0.0",
+  "homepage": "https://github.com/torniketoro/new-random",
+  "authors": [
+    "torniketoro <tokotorgashvili@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.0.0",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.3",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.0.4",
+    "paper-icon-button": "PolymerElements/paper-icon-button#~1.0.3",
+    "iron-icons": "PolymerElements/iron-icons#~1.0.3",
+    "paper-menu": "PolymerElements/paper-menu#~1.1.0",
+    "iron-pages": "PolymerElements/iron-pages#~1.0.3",
+    "page.js": "~1.6.3"
+  }
+}
